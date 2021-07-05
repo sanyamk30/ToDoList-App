@@ -6,7 +6,7 @@ export default function Form(props){
 
     function handleSubmit(e){
         e.preventDefault();
-        if(name == ''){
+        if(name === ''){
             alert('Please enter a name');
         }
         else
